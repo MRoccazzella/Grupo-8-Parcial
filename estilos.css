@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.navContainer{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 10vh;
+    background-color: #468AC9;
+}
+
+.logoContainer{
+    width: 30%;
+    height: 100%;
+    padding-left: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imagenLogo{
+    height: 10vh;
+    width: 10vh;
+}
+.linksContainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    height: 10vh;
+    align-items: center;
+}
+.link{
+    width: 10vw;
+    font-family: 'Almarai', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+.link:hover{color:white; transform: scale(1.15); transition: all 0.5s;}
+.groupText{
+    padding-left: 30px;
+    text-align: center;
+    font-family: 'Almarai', sans-serif;
+
+}
+.titleContainer{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+}
+.titulo{
+    color: #468AC9;
+    font-family: 'Almarai', sans-serif;
+}
+.imgContainer{
+    padding-top: 5vh;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+.uadeLogo{
+    width: 20vw;
+    height: 20vw;
+}
+.textContainer{
+    width: 100%;
+    padding-top: 5vh;
+    font-family: 'Almarai', sans-serif;
+    font-size: 1.7em;
+    display: inline-block;
+    text-align: center;
+}
+.textInfo{
+    padding-top: 10px;
+}
